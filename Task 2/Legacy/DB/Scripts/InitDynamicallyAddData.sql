@@ -2,7 +2,7 @@
    Demo Data Seeder (fixed TRUNCATE/DELETE order + reseeds)
    Requires schema with singular tables + Lookup/LookupValue.
    ============================================================ */
-
+USE ClientManagementDemo;
 SET NOCOUNT ON;
 
 BEGIN TRY
