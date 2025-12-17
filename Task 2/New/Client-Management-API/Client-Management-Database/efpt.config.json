@@ -1,0 +1,225 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "ClientManagementDemoContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "IrregularWords": null,
+   "MinimumProductVersion": "2.6.1248",
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PluralRules": null,
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Client_Management_Database",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "SingularRules": null,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Asset]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Client]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Expenditure]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Income]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Journal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Liability]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Lookup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LookupValue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[__NormalizePaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Asset_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Asset_Delete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Asset_Read]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Asset_Search]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Asset_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Client_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Client_Delete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Client_Read]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Client_Search]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Client_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Dashboard_ClientsByAge_Bad]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Dashboard_EstimatedNetWorth_Bad]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Dashboard_StaleClients_Bad]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Dashboard_StatusBreakdown_Bad]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Expenditure_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Expenditure_Delete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Expenditure_Read]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Expenditure_Search]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Expenditure_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Income_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Income_Delete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Income_Read]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Income_Search]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Income_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Journal_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Journal_Delete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Journal_Read]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Journal_Search]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Journal_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Liability_Create]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Liability_Delete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Liability_Read]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Liability_Search]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Liability_Update]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[LookupValue_Search]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
