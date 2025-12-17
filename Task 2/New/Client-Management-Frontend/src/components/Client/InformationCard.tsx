@@ -6,7 +6,7 @@ import Col from "react-bootstrap/esm/Col";
 import { Button, Form } from "react-bootstrap";
 
 
-interface InformationCardProps<T> {
+interface InformationCardProps<T extends {id: number}> {
   title: string;
   entryFields: EntryField[];
   tableColumns: TableColumn<T>[];
